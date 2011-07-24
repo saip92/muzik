@@ -1,1 +1,9 @@
 This is a PHP-based script for making music portal.
+
+If you want to take a look at it, put all the files in your webserver root and modify connect.php based on your database information. Then run the sql file in tmp folder.
+
+Immediate requirements for pre-release:
+-- Add songs page
+-- Album view
+-- Play songs
+
