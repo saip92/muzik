@@ -1,0 +1,39 @@
+h2.acctrig {
+	padding: 0;	
+	margin: 0;
+	background-image: url('../images/main/acctrig.png');
+	background-repeat: no-repeat;
+	height: 30px;	
+	line-height: 30px;
+	font-size: 1.3em;
+	font-weight: normal;
+	width: 190px;
+	float: left;
+}
+h2.acctrig a {
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	padding: 0 0 0 35px;
+}
+h2.acctrig a:hover {
+	color: #333333;
+}
+h2.active {background-position: left bottom;}
+.acccon {
+	margin: 0; 
+	padding: 0;
+	width: 190px;
+	line-height: 25px; 
+	font-size: 25px;
+	clear: both;
+	font-size: 1em;
+}
+.acccon a{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	padding: 0 0 0 50px;
+	background-image: url('../images/main/acccon.png');
+	background-repeat: no-repeat;
+}

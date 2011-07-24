@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<htmL xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Test page</title>
+		<link type="text/css" rel="stylesheet" href="css/main.css"/>
+		<link type="text/css" rel="stylesheet" href="css/acc.css"/>
+		<link type="text/css" rel="stylesheet" href="css/slide.css"/>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+		<!-- PNG FIX for IE6 -->
+    	<!-- http://24ways.org/2007/supersleight-transparent-png-in-ie6 -->
+    	<!--[if lte IE 6]>
+        <script type="text/javascript" src="login_panel/js/pngfix/supersleight-min.js"></script>
+    	<![endif]-->
+		<script type="text/javascript" src="js/acc.js"></script>
+		<script type="text/javascript" src="js/slide.js"></script>
+	</head>
+	<body>
+		<div id="toppanel">
+			<div id="panel">
+				<div class="content clearfix">
+					<div class="left">
+						test
+					</div>
+					<div class="left">
+						tet
+					</div>
+					<div class="left right">
+						test
+					</div>
+            		<div class="left">
+            			test
+            		</div>
+				</div>
+			</div> 
+			<div class="tab">
+				<ul class="login">
+	    			<li class="left">&nbsp;</li>
+	        		<li>Hello <?php echo $_SESSION['usr'] ? $_SESSION['usr'] : 'Guest';?>!</li>
+					<li class="sep">|</li>
+					<li id="toggle">
+						<a id="open" class="open" href="#"><?php echo $_SESSION['id']?'Open Panel':'Log In | Register';?></a>
+						<a id="close" style="display: none;" class="close" href="#">Close Panel</a>			
+					</li>
+	    			<li class="right">&nbsp;</li>
+				</ul> 
+			</div>
+		</div>
+		<div id="header">
+			<img src="images/main/logo.png" alt="logo" />
+			<div id="search">
+				<form action="">
+					<input type="image" src="images/main/sbi.png" id="sboxsub" value="" />
+					<input type="text" id="sbox" name="s" value="" />
+				</form>
+			</div>
+		</div>
+		<div id="navbar">
+				<ul style="none">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Albums</a></li>
+					<li><a href="#">Artists</a></li>
+					<li><a href="#">About Us</a></li>
+				</ul>
+		</div>
+		<div id="wrapper">
+			<div id="leftcol">
+				<h2 class="acctrig"><a href="#">Telugu</a></h2>
+				<div class="acccon">
+					<div>
+						<a href="#">Test</a>
+						<a href="#">Test</a>
+						<a href="#">Test</a>
+						<a href="#">Test</a>
+					</div>
+				</div>
+				<h2 class="acctrig"><a href="#">Hindi</a></h2>
+				<div class="acccon">
+						<a href="#">Test</a>
+						<a href="#">Test</a>
+						<a href="#">Test</a>
+						<a href="#">Test</a>
+				</div>
+				<h2 class="acctrig"><a href="#">Test3</a></h2>
+				<div class="acccon">
+						<a href="#">Home</a>
+						<a href="#">Albums</a>
+						<a href="#">Artists</a>
+						<a href="#">About Us</a>
+				</div>
+			</div>
+			<div id="maincol">
+				<div id="mcsta"></div>
+				<div id="mcbg">
+					<div id="content">
+						Test
+					</div>
+				</div>
+				<div id="mcsto"></div>
+			</div>
+		</div>
+		<div id="footer">
+				<p class="cpr">
+					Copyright &copy; 2011 Muzik
+				</p>
+		</div>
+	</body>
+</htmL>

@@ -1,0 +1,152 @@
+body {
+	background-image: url('../images/main/bdbg.png');
+	background-repeat: repeat-x;
+	margin: 0;
+	padding-top: 10px; 
+}
+input[type="text"] {
+	border:0px;
+	background-color:transparent;
+	width:180px;
+	height:24px;
+	margin: 3px 0 0 3px;
+	padding:3px 0 0 10px;
+	background-image: url('../images/main/txtf.png');
+	background-repeat: no-repeat;
+}
+div#header {
+	height: 150px;
+	width: 900px;
+	margin: 0 auto;
+}
+div#search {
+	margin: 62.5px 25px ;
+	height: 60px;
+	width: 264px;
+	float: right;
+	background-image: url('../images/main/seb.png');
+	background-repeat: no-repeat;
+	position: relative;
+}
+div#search form{
+	display: inline;
+}
+input[type="text"]#sbox {
+	border:0px;
+	background-color:transparent;
+	background-image: none;
+	position:absolute;
+	top:9px;
+	left:63px;
+	width:180px;
+	height:24px;
+	margin: 0 0 0 0;
+	padding-left: 0;
+}
+#sboxsub {
+	border:0px;
+	background-color:transparent;
+	position:absolute;
+	top:0px;
+	left:8px;
+	width:45px;
+	height:45px;
+}
+div#navbar {
+	height: 35px;
+	background-image: url('../images/main/navbg.png');
+	background-repeat:repeat-x;
+	width: 900px;
+	margin: 0 auto;
+}
+div#navbar ul {
+	padding: 0;
+	margin: 0;
+	line-height: 33px;
+}
+div#navbar li {
+	list-style-type: none;
+	float: left;
+}
+div#navbar li a{
+	text-decoration: none;
+	color: #000000;
+	padding: 0px 15px;
+	display: block;
+}
+div#navbar li a:hover{
+	text-decoration: none;
+	color: #000000;
+	background-image: url('../images/main/navbgh.png');
+	background-repeat:repeat-x;
+}
+div#wrapper {
+	min-height: 575px;
+	width: 900px;
+	margin: 0 auto;
+}
+div#leftcol {
+	position: relative;
+	min-height: 490px;
+	float: left;
+	top: 5px;
+	left: 5px;
+	width: 190px;
+}
+div#maincol {
+	position: relative;
+	min-height: 500px;
+	float: left;
+	top: 5px;
+	left: 5px;
+	width: 710px;
+}
+div#mcsta {
+	position: relative;
+	float: left;
+	left: 5px;
+	width:695px;
+	height:25px;
+	background: url('../images/main/mcsta.png') no-repeat;
+}
+div#mcbg {
+	position: relative;
+	float: left;
+	left: 5px;
+	width:695px;
+	padding: 0 0 0 25px;
+	min-height:500px;
+	background: url('../images/main/mcbg.png') repeat-y;
+}
+div#content {
+	position: relative;
+	float: left;
+	left: 5px;
+	width:640px;
+}
+div#mcsto {
+	position: relative;
+	float: left;
+	left: 5px;
+	width:695px;
+	height:25px;
+	background: url('../images/main/mcsto.png') no-repeat;
+}
+div#footer {
+	height: 40px;
+	width: 900px;
+	margin: 0 auto;
+	background-image: url('../images/main/navbg.png');
+	background-repeat: repeat-x;
+}
+.cpr {
+	margin: 0;
+	padding: 6px;
+	float: right;
+}
+.loading {
+	background:url(../images/loader.gif) no-repeat 1px; 
+    height:28px; 
+    width:28px; 
+    display:none;
+}
